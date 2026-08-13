@@ -1,0 +1,11 @@
+v 1.1
+* **Correctifs: **
+- Faire en sorte que quand l'utilisateur rentre un nombre qui n'est pas entre 1 et 3, le programme dit que c'est une erreur et repose
+la question à l'utilisateur jusqu'à ce que ce soit bon
+- Si c'est une lettre qui est pressée, il faut aussi faire un message d'erreur
+
+* **Nouveautés: **
+- Ajouter 2 modes de difficultés en plus du mode de base
+  2e mode = Mode facile (2 fils)
+  Mode de base = Mode normal (3 fils)
+  3e mode = Mode difficile (5 fils)
