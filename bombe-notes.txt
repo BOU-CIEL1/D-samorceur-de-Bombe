@@ -9,3 +9,19 @@ la question à l'utilisateur jusqu'à ce que ce soit bon
   2e mode = Mode facile (2 fils)
   Mode de base = Mode normal (3 fils)
   3e mode = Mode difficile (5 fils)
+
+v 1.2
+* **Correctifs: **
+- Remplacement de certains "magic numbers" par des variables immuables
+
+* **Nouveautés: **
+- Implémentation d'un système de vie (2 vies)
+
+* **Refactor: **
+- Changement du nombre de fils pour les niveaux Facile: passé de 2 à 3 fils et Normal: passé de 3 à 4 fils pour coller avec le nombre de vies
+
+Idées pour le futur du projet:
+  - Mettre une interface graphique (TKinter)
+  - Donner le nombre de bombes "pleines" et le nombre de bombes "à vide"
+  - Mettre un mode "infini" où le jeu continue jusqu'à ce qu'on perd (avec un nombre de vie donné (3 ou 5)) avec un classement
+  - Mettre des objets avec des effets (se protéger d'une bombe, en enlever plusieurs d'un coup...)
