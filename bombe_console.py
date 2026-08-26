@@ -1,3 +1,5 @@
+# Fichier où est mis tout ce qui est en rapport avec la logique de code de base du jeu
+
 # L'ordinateur choisit un nombre aléatoire entre 1 et 3
 # Le programme affiche un message "Quel fil couper? (1, 2 ou 3)"
 # Saisir le nombre dans la console
